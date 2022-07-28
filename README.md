@@ -20,7 +20,11 @@ https://docs.microsoft.com/en-us/azure/azure-app-configuration/use-key-vault-ref
 4. Enable Managed Identity for App Service
 https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x&pivots=framework-spring
 
-5. Remove/Delete the environment variables AZURE_CLIENT_ID, AZURE_CLIENT_SECRET, and AZURE_TENANT_ID and test Managed Identity credentials. 
+5. Remove/Delete the environment variables AZURE_CLIENT_ID, AZURE_CLIENT_SECRET, and AZURE_TENANT_ID . 
+ 
+6. Remove/Delete the code requiring Azure Credentials from Step 3 Sample. Redeploy. 
+
+7. Test Managed Identity without credeintials. 
 
 ## Addons
 
